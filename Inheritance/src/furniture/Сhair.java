@@ -2,5 +2,13 @@ package furniture;
 
 public class Сhair extends Furniture
 {
-    public int backrestTilt = 0;
+    private int backrestTilt = 0;
+
+    public int getBackrestTilt() {
+        return backrestTilt;
+    }
+
+    public void setBackrestTilt(int backrestTilt) {
+        this.backrestTilt = backrestTilt;
+    }
 }
