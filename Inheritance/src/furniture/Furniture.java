@@ -2,9 +2,9 @@ package furniture;
 
 public class Furniture
 {
-    public int length = 0;
-    public int height = 0;
-    public int width = 0;
+    private int length = 0;
+    private int height = 0;
+    private int width = 0;
     public String material;
 
     public int getLength() {
